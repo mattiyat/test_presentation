@@ -41,11 +41,10 @@
       // More info about config & dependencies:
       // - https://github.com/hakimel/reveal.js#configuration
       // - https://github.com/hakimel/reveal.js#dependencies
-<<<<<<< HEAD
 	  Reveal.initialize({
         multiplex: {
-          url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh/',
-          id : '3deb997e46e750c3',
+          url: 'https://matt-multiplex.1d35.starter-us-east-1.openshiftapps.com/token',
+          id : '94f744b60f9670fd',
           secret: Reveal.getQueryHash().s || null
         },
 
@@ -53,26 +52,6 @@
           { src: Reveal.getQueryHash().s ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/multiplex/master.min.js' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/multiplex/client.min.js', async:true }
         ]
       });
-=======
-      Reveal.initialize({
-	// other options...
-
-	multiplex: {
-		// Example values. To generate your own, see the socket.io server instructions.
-		secret: null, // null so the clients do not have control of the master presentation
-		id: 'e1a34642be73bff0', // id, obtained from socket.io server
-		url: 'https://matt-multiplex.1d35.starter-us-east-1.openshiftapps.com/' // Location of socket.io server
-	},
-
-	// Don't forget to add the dependencies
-	dependencies: [
-		{ src: 'https://cdn.socket.io/socket.io-2.0.3.js', async: true },
-		{ src: 'plugin/multiplex/client.js', async: true }
-
-		// other dependencies...
-	]
-});
->>>>>>> dbf4d9ec113adfe2fa72e4c29254ebe56105c75b
     </script>
   </body>
 </html>
